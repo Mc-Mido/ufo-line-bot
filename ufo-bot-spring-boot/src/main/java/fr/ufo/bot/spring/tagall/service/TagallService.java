@@ -72,9 +72,14 @@ public class TagallService
                 log.error("Impossible de savoir si c'est une room ou un groupe !");
             }
         }
+        else
+        {
+            log.info("event : {}", event);
+        }
 
         final String originalMessageText = "[Ufo bot] @\uD83C\uDDEB\uD83C\uDDF7McMido|uF0#336 " + event.getMessage()
                                                                                                        .getText();
+
         return new TextMessage(originalMessageText);
     }
 
