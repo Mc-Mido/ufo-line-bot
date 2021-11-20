@@ -4,11 +4,10 @@
 [![javadoc](https://javadoc.io/badge2/com.linecorp.bot/line-bot-model/javadoc.svg)](https://javadoc.io/doc/com.linecorp.bot/line-bot-model)
 [![codecov](https://codecov.io/gh/line/line-bot-sdk-java/branch/master/graph/badge.svg)](https://codecov.io/gh/line/line-bot-sdk-java)
 
-
 ## Introduction
 
-The LINE Messaging API SDK for Java makes it easy to develop bots using LINE Messaging API, and you can create a sample bot within minutes.
-
+The LINE Messaging API SDK for Java makes it easy to develop bots using LINE Messaging API, and you can create a sample
+bot within minutes.
 
 ## Documentation
 
@@ -17,11 +16,9 @@ See the official API documentation for more information.
 - English: https://developers.line.biz/en/docs/messaging-api/overview/
 - Japanese: https://developers.line.biz/ja/docs/messaging-api/overview/
 
-
 ## Requirements
 
 This library requires Java 8 or later.
-
 
 ## Installation
 
@@ -29,21 +26,19 @@ We've uploaded this library to the Maven Central Repository. You can install the
 
 http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.linecorp.bot%22
 
-
 ## Modules
 
 This project contains the following modules:
 
- * line-bot-api-client: API client library for the Messaging API
- * line-bot-model: Model classes for the Messaging API
- * line-bot-servlet: Java servlet utilities for bot servers
- * line-bot-spring-boot: Spring Boot auto configuration library for bot servers
+* line-bot-api-client: API client library for the Messaging API
+* line-bot-model: Model classes for the Messaging API
+* line-bot-servlet: Java servlet utilities for bot servers
+* line-bot-spring-boot: Spring Boot auto configuration library for bot servers
 
 This project contains the following sample projects:
 
- * sample-spring-boot-echo: A simple echo server. It includes a Heroku button.
- * sample-spring-boot-kitchensink: Full featured sample code.
-
+* sample-spring-boot-echo: A simple echo server. It includes a Heroku button.
+* sample-spring-boot-kitchensink: Full featured sample code.
 
 ## Spring Boot integration
 
@@ -102,10 +97,11 @@ public class EchoApplication {
 
 You can use `LineMessagingServiceBuilder` to configure a proxy server. It accepts your own OkHttpBuilder instance.
 
-Note: You don't need to use an add-on like Fixie to have static IP addresses for proxy servers. You can make API calls without entering IP addresses on the server IP whitelist.
-
+Note: You don't need to use an add-on like Fixie to have static IP addresses for proxy servers. You can make API calls
+without entering IP addresses on the server IP whitelist.
 
 ## Help and media
+
 FAQ: https://developers.line.biz/en/faq/
 
 Community Q&A: https://www.line-community.me/questions
@@ -114,18 +110,15 @@ News: https://developers.line.biz/en/news/
 
 Twitter: [@LINE_DEV](https://twitter.com/LINE_DEV)
 
-
 ## Versioning
 
 This project respects semantic versioning.
 
 See http://semver.org/.
 
-
 ## Contributing
 
 Please check [CONTRIBUTING](CONTRIBUTING.md) before making a contribution.
-
 
 ## License
 
@@ -142,4 +135,9 @@ Please check [CONTRIBUTING](CONTRIBUTING.md) before making a contribution.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
 # ufo-line-bot
+
+Pour déployer le bot sur heroku :
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mc-Mido/ufo-line-bot)
