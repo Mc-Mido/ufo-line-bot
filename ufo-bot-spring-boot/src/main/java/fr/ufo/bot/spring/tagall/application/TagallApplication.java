@@ -1,4 +1,4 @@
-package fr.ufo.bot.spring.tagall;
+package fr.ufo.bot.spring.tagall.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
